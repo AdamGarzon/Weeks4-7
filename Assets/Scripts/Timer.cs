@@ -21,5 +21,8 @@ public class Timer : MonoBehaviour
         if (timerValue > timerMaxValue) { 
         timerValue = 0;
         }
+
+
+        timerVisuals.value = timerValue;
     }
 }
